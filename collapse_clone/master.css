@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+.container{
+	display:flex;
+  font-family: 'Raleway', sans-serif;
+	flex-wrap:wrap;
+	width:60%;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.parent{
+	  background-color: #3D9970;
+    width: 100%;
+    border: 1px solid #001f3f;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.child{
+	  background-color: aqua;
+    border: 1px solid #17c0eb;
+    padding: 5px;
+}

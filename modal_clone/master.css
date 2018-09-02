@@ -1,0 +1,57 @@
+.root {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	height:100vh;
+	flex-wrap: wrap;
+	background-color: teal;
+}
+
+.parent {
+	background: white;
+	border-radius: 5px;
+	border: 1px solid gray;
+	width:40%;
+	font-family: sans-serif;
+}
+
+.h3 {
+	width: 70%;
+}
+
+.cross{
+	color: red;
+	font-size: 24px;
+}
+
+.buttons {
+	height: 40px;
+	color: black;
+	border-radius: 5px;
+	border-style: solid;
+	font-size: 15px;
+	margin-right: 7px;
+}
+
+.item1 {
+	width: 70px;
+	background-color: darkgrey;
+}
+
+.item2 {
+	width: 120px;
+	background-color: green;
+}
+
+/*use media queries to change the layout*/
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .parent {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .parent {
+        width: 90%;
+    }
+
+}
